@@ -9,6 +9,6 @@ entries:
     name: buildachart
     type: application
     urls:
-    - https://github.com/dunkletx/helm-chart/buildachart-0.1.0.tgz
+    - https://dunkletx.github.io/helm-chart/buildachart-0.1.0.tgz
     version: 0.1.0
 generated: "2020-07-30T22:20:41.013107-05:00"

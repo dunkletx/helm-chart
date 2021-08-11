@@ -9,6 +9,6 @@ entries:
     name: chartjmetertools86
     type: application
     urls:
-    - https://dunkletx.github.io/helm-chart/chartjmetertools86/chartjmetertools86-0.1.1.tgz
+    - https://dunkletx.github.io/helm-chart/chartjmetertools86-0.1.1.tgz
     version: 0.1.0
 generated: "2021-08-11T15:36:37.722446-05:00"

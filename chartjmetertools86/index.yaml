@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  chartjmetertools86:
+  - apiVersion: v2
+    appVersion: 1.16.1
+    created: "2021-08-11T15:36:38.035107-05:00"
+    description: A Helm chart for Kubernetes
+    digest: b2df05a28fc60972aef8652180f5830068c1b2d73f5a12d02dc065d0b53c6aff
+    name: chartjmetertools86
+    type: application
+    urls:
+    - https://mobiledgex.github.io/helm-examples/chartjmetertools86-0.1.1.tgz
+    version: 0.1.1
+generated: "2021-08-11T15:36:37.722446-05:00"

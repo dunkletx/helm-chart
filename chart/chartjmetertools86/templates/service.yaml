@@ -1,9 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: helmjmetertools808650-tcp
+  name: 	
+chartjmetertools8650-tcp
   labels:
-    run: helmjmetertools80865.0
+    run: 	
+chartjmetertools865.0
 spec:
   type: LoadBalancer 
   ports:
@@ -28,14 +30,17 @@ spec:
     port: 8016
     targetPort: 8016
   selector:
-    run: helmjmetertools80865.0
+    run: 	
+chartjmetertools865.0
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: helmjmetertools808650-udp
+  name: 	
+chartjmetertools8650-udp
   labels:
-    run: helmjmetertools80865.0
+    run: 	
+chartjmetertools865.0
 spec:
   type: LoadBalancer
   ports:
@@ -44,28 +49,29 @@ spec:
     port: 8015
     targetPort: 8015
   selector:
-    run: helmjmetertools80865.0
+    run: 	
+chartjmetertools865.0
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: wwtjmeterk8splus40-deployment
+  name: chartjmetertools8650-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      run: helmjmetertools80865.0
+      run: chartjmetertools865.0
   template:
     metadata:
       labels:
-        run: helmjmetertools80865.0
+        run: chartjmetertools865.0
         mexDeployGen: kubernetes-basic
     spec:
       volumes:
       imagePullSecrets:
       - name: docker-qa.mobiledgex.net
       containers:
-      - name: helmjmetertools808650
+      - name: chartjmetertools8650
         image: docker-qa.mobiledgex.net/automation_dev_org/images/helmjmetertools8086:5.0
         imagePullPolicy: Always
         ports:

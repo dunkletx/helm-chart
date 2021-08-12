@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  browser86:
+  - apiVersion: v2
+    appVersion: 6.2.0
+    created: "2021-08-11T19:02:53.940309-05:00"
+    description: A Browser in a Helm chart for Kubernetes
+    digest: fe45393990fd6d2e4ceb3de84d82bdfc56307828a85d921f3a3f3362958dc99e
+    name: browser86
+    type: application
+    urls:
+    - https://dunkletx.github.io/helm-chart/chart/browser76/jmetertools86-6.2.0.tgz
+    version: 6.2.0
+generated: "2021-08-11T19:02:53.912039-05:00"

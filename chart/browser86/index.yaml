@@ -9,6 +9,6 @@ entries:
     name: browser86
     type: application
     urls:
-    - https://dunkletx.github.io/helm-chart/chart/browser86/jmetertools86-0.1.1.tgz
+    - https://dunkletx.github.io/helm-chart/chart/browser86/jmetertools86-5.0.0.tgz
     version: 5.0.0
 generated: "2021-08-11T19:02:53.912039-05:00"
